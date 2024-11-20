@@ -1,0 +1,268 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1273px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header {
+    background: #272C3D;
+    padding-top: 21px;
+    padding-bottom: 20px;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__list {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+.header__link {
+    color: rgb(255, 255, 255);
+    font-family: Quantico;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+}
+
+.header__link:hover {
+    color: rgb(255, 156, 40);
+}
+
+
+.input__box {
+    width: 241.87px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    background: rgb(64, 72, 100);
+}
+
+input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    padding-left: 5px;
+}
+
+.language-dropdown {
+    position: relative;
+    list-style: none;
+    background-color: black;
+    width: 165.49px;
+    height: 30px;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.5);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.language-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: black;
+    border-radius: 5px;
+    display: none;
+    list-style: none;
+    padding: 10px 0;
+    min-width: 150px;
+    z-index: 10;
+    list-style: none;
+
+}
+
+.language-menu li {
+    padding: 5px 15px;
+    list-style: none;
+}
+
+.language-link {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Quantico;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    transition: 0.5s ease-in-out;
+    text-decoration: none;
+}
+
+.language-link:hover {
+    border-radius: 5px;
+
+    color: chocolate;
+}
+
+
+.language-dropdown:hover .language-menu {
+    display: block;
+}
+
+.box {
+    display: flex;
+    gap: 42px;
+}
+
+.header__link1 {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Quantico;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-decoration: none;
+}
+
+.dropdown__img {
+    width: 25.46px;
+    height: 6px;
+    margin-top: 7px;
+    margin-left: 5px;
+}
+
+.hero {
+    height: 554px;
+    background-image: url("./img/Bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero1 {
+    background-color: black;
+    padding-top: 45px;
+
+}
+
+.title {
+    background: linear-gradient(180.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0));
+    -webkit-background-clip:
+        text;
+    -webkit-text-fill-color:
+        transparent;
+    background-clip:
+        text;
+    font-family: Quantico;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 5.22px;
+}
+
+.list__box {
+    display: flex;
+    margin: 0 auto;
+}
+
+.btn {
+    background-color: transparent;
+    border: none;
+    margin-right: 29px;
+    margin-left: 45px;
+}
+
+.btn1 {
+    background-color: transparent;
+    border: none;
+    margin-left: 29px;
+}
+
+.hero__img {
+    margin-bottom: 59px;
+}
+
+.wrapper {
+    background-color: #1B1E27;
+    padding-top: 61px;
+    padding-bottom: 129px;
+}
+
+.wrapper__title {
+    color: rgb(255, 255, 255);
+    font-family: Quantico;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.wrapper__box1 {
+    width: 740px;
+    margin: 0 auto;
+}
+
+.textbox {
+    display: flex;
+    gap: 17px;
+}
+
+.wrapper__text {
+    color: rgb(191, 191, 191);
+    font-family: Quantico;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+}
+
+.wrapper__box2 {
+    width: 740px;
+    margin: 0 auto;
+    margin-top: 142px;
+}
+
+.footer {
+    background: #272C3D;
+    padding-top: 21px;
+    padding-bottom: 20px;
+}
+
+.footer__nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__list {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+.footer__link {
+    color: rgb(255, 255, 255);
+    font-family: Quantico;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+}
+.footer__link:hover {
+    color: rgb(255, 156, 40);
+}
+.footer__item {
+    list-style: none;
+}
